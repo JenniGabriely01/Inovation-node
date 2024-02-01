@@ -1,0 +1,26 @@
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 90px 10px;
+}
+
+.conteudo h1{
+    font-weight: 800;
+    font-size: 2vw;
+    color: #263238;
+}
+
+.contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+    margin-top: 50px;
+}
+
+.info p{
+    margin-bottom: 20px;
+    font-size: 1.3vw;
+    font-weight: 300;
+}

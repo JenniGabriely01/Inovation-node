@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilos para o scrollbar */
+body::-webkit-scrollbar {
+    width: 12px; /* Largura do scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #888; /* Cor do thumb (barra deslizante) */
+    border-radius: 6px; /* Borda arredondada do thumb */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #EBE7E7; /* Cor da trilha do scrollbar */
+}
+
+
+body{
+    background-color: #EBE7E7;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px 24px 80px;
+}
+
+header img{
+    width: 150px;
+}
+
+header a{
+    color: #263238;
+    font-weight: 600;
+    padding: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.9s all;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/* footer */
+
+.desing{
+    font-weight: 800;
+}
+
+.footer{
+    padding: 0px 0 50px 0;
+    text-align: center;
+    color: #263238;
+}
+
+.footer h3{
+    font-size: 1.2vw;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.footer h4{
+    margin: 30px;
+    font-weight: 300;
+}
+
+.footer  img{
+    width: 150px;
+    height: 40px;
+}
+
+svg{
+    width: 100%;
+}
+
+
+.titulo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+
+.titulo h2{
+    margin: 1%;
+}
+
+.lateral1 { 
+    width: 5%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #263238;
+}
+  
